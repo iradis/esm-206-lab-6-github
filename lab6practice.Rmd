@@ -7,10 +7,6 @@ output: html_document
 ---
 
 
-git config --global --edit
-git commit --amend --reset-author
-git config --global user.email iradis@ucsb.edu
-git config --global user.name "Isabelle Radis"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -37,10 +33,11 @@ HP_col<- HP %>%
 HP_col
 ```
 ```{r}
-$git config --global --edit
-git commit --amend --reset-author
-git config --global user.email "iradis@ucsb.edu"
-git config --global user.name "Isabelle Radis"
+
 ```
 
 
+git config --global --edit
+git commit --amend --reset-author
+git config --global user.email iradis@ucsb.edu
+git config --global user.name "Isabelle Radis"
