@@ -7,9 +7,11 @@ output: html_document
 ---
 
 
-
+git config --global --edit
 git config --global user.email "iradis@ucsb.edu"
 git config --global user.name "Isabelle Radis"
+git commit --amend --reset-author
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
