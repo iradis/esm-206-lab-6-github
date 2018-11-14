@@ -3,8 +3,13 @@ title: "lab6practie"
 author: "Isabelle Radis"
 date: "11/13/2018"
 output: html_document
+
 ---
 
+
+
+git config --global user.email "iradis@ucsb.edu"
+git config --global user.name "Isabelle Radis"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
